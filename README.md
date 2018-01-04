@@ -1,6 +1,28 @@
-# di-spring
+# Tahona DI - spring annotations support
+
+Library for [Tahona DI](https://github.com/tahonaPL/di-spring).
 DI with Spring annotations -  for Android and Desktop
 
+### Installation ###
+
+Maven:
+```
+<groupId>pl.tahona</groupId>
+<artifactId>di</artifactId>
+<version>1.0.0</version>
+
+
+<groupId>pl.tahona</groupId>
+<artifactId>di-spring</artifactId>
+<version>1.0.0</version>
+
+```
+
+Gradle:
+```
+  compile 'pl.tahona:di:1.0.0'
+  compile 'pl.tahona:di-spring:1.0.0'
+```
 
 ### Spring Beans Scan ####
 
