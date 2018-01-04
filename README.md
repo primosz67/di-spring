@@ -1,6 +1,6 @@
 # Tahona DI - spring annotations support
 
-Library for [Tahona DI](https://github.com/tahonaPL/di-spring).
+Library for [Tahona DI](https://github.com/tahonaPL/di).
 DI with Spring annotations -  for Android and Desktop
 
 ### Installation ###
