@@ -6,7 +6,7 @@ DI with Spring annotations -  for Android and Desktop
 ### Installation ###
 
 Maven:
-```
+```xml
 <groupId>pl.tahona</groupId>
 <artifactId>di</artifactId>
 <version>1.0.0</version>
@@ -15,7 +15,6 @@ Maven:
 <groupId>pl.tahona</groupId>
 <artifactId>di-spring</artifactId>
 <version>1.0.0</version>
-
 ```
 
 Gradle:
@@ -24,8 +23,8 @@ Gradle:
   compile 'pl.tahona:di-spring:1.0.0'
 ```
 
+## Basic use: ###
 ### Spring Beans Scan ####
-
 
 ```java 
 final BeanScanner scanner = new BeanScanner(
@@ -50,7 +49,7 @@ container.initialize();
 
 ```
 
-## Service example ##
+### Service example ###
 
 ```java
 @Service
@@ -62,7 +61,7 @@ class ExampleService {
 }
 ```
 
-## Constructor injection ##
+### Constructor injection ###
 
 ```java
 @Component
